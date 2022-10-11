@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University web design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+  <a href="index.html"><img src="programming/logo.png" alt=""></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+     <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="courses.html">COURSE</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+     </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>About Us</h1>
+    </section>
+
+<!------- about us content ------->
+<section class="about us">
+     
+      <div class="row">
+      <div class="about-col">
+    <h2>A Citadel Of Learning.</h2>
+    <p>With our world class admistration, tutors and facilities, we are one of the worlds best university. <br> The institution was founded in 1923 and has maintained a world class standard for up to a century, brooding great scholars, researchs and being one of the worlds leading universities in technology and innovations.</p>
+       <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="programming/about.jpg">
+      </div>
+      </div>
+</section>
+ 
+<!------- Footer ------->
+  <section class="footer">
+   <h3>About Us</h3>
+   <p>Read more about our institution, research openings, admissions, scholarships, <br> events around the campus and much more.</p>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    <i class="fa fa-skype"></i>
+   <p>Powered by Dave_vidd</p>
+
+
+  </section>
+
+
+
+ <!--------JavaScript for Toggle Menu------->
+    <script>
+   var navLinks = document.getElementById(navLinks);
+
+   function showMenu(){
+     navLinks.style.right = "0";
+   }
+   function hideMenu(){
+    navLinks.style.right = "-200px";
+   }
+    </script>
+</body>
+</html>
